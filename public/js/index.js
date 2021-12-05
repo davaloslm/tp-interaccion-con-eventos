@@ -31,4 +31,18 @@ window.onload = function(){
     
 
     container.style.display = 'block';
+
+    /* Micro desafío - Paso 1 */
+
+    var logo = document.querySelector(".logoDH");
+    var menu = document.querySelector("#menu");
+
+    logo.addEventListener("click", ()=>{
+        menu.classList.toggle("mostrar")
+    })
+
+    menu.addEventListener("mouseleave", ()=>{
+        menu.classList.remove("mostrar")
+    })
+
 }

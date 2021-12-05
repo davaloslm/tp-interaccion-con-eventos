@@ -7,6 +7,17 @@ window.onload = function(){
     article.classList.add('fondoTransparente');
     formulario.classList.add('fondoCRUD');
 
+    /* Micro desafío - Paso 1 */
+
+    var boton = document.querySelector(".botonAgregar");
+
+    boton.addEventListener("mouseover", ()=>{
+        boton.style.backgroundColor = "crimson"
+    })
+
+    boton.addEventListener("mouseout", ()=>{
+        boton.style.backgroundColor = "green"
+    })
 
 
 }
