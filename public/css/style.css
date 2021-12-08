@@ -122,3 +122,20 @@ figure {
   display: block;
   width: 40px;
 }
+
+.is-invalid {
+  border-color: crimson
+}
+
+.is-valid {
+  border-color: green
+}
+
+ul li{
+  color: crimson;
+  list-style: none;
+}
+
+small{
+  color: crimson;
+}
